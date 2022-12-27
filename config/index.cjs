@@ -19,7 +19,7 @@ const USER_CONFIG = {
   IS_SHOW_COLOR: true,
 
   // 功能开关,打开：true，关闭：false
-  SWITCH: {
+  SWITCH: {true
     /** 每日天气 */
     weather: true,
 
@@ -65,7 +65,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '煞笔',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'yUh1Ah1A',
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'zUOdLWfoKcxkn_PgbH8MzqXqR8YsPIQnPQBjeiBRZOo',
       // 所在省份
@@ -79,7 +79,7 @@ const USER_CONFIG = {
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://wangxinleo.cn',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-      festivals: [
+      festivals: [ type: '*生日', name: '煞笔', year: '2004', date: '07-15'
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '*生日', name: '老婆', year: '1996', date: '09-09',
